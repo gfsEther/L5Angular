@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+.env
+/storage/database.sqlite
+.idea
+*.DS_Store
+tests/_output/*
+*.swp
+*.swo
+*~
