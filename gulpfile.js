@@ -37,6 +37,10 @@ elixir(function(mix) {
             'angular/angular.min.js',
             'public/js/vendor/angular.js'
         )
+        .publish(
+            'angular/angular.min.js.map',
+            'public/js/vendor/angular.min.js.map'
+        )
         .styles([
             "public/css/app.css",
             "public/css/vendor/font-awesome.css"
