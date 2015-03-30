@@ -57,7 +57,6 @@
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="/js/all.js"></script>
-	<script type="text/javascript" src="/js/vendor/angular.js"></script>
-	<script type="text/javascript" src="/js/test.js"></script>
+	
 </body>
 </html>

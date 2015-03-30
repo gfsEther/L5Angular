@@ -10,6 +10,8 @@
 				<div class="panel-body">
 					You are logged in!
 				</div>
+				<br>
+				{!!link_to_route('home.show', "Show", null,['class' => 'btn btn-primary'])!!}
 			</div>
 		</div>
 	</div>

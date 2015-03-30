@@ -14,9 +14,14 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('home/show', ['as' => 'home.show', 'uses' => 'HomeController@show']);
 
 Route::get('test', function() {
   return view('test');
+});
+
+Route::get('watch', function() {
+  return view('watch');
 });
 
 Route::controllers([
