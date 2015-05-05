@@ -32,6 +32,10 @@
               @{{us.id}} = @{{us.name}}
             </li>
           </ul>
+          Add User 
+          Name: <input type="text" ng-model="newUser"/>
+          Email: <input type="text" ng-model="email"/>
+          <a href="#" class="btn btn-primary" ng-click="addUser()">Add</a>
         </div>
       </div>
     </div>
