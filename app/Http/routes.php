@@ -28,6 +28,10 @@ Route::get('route', function () {
   return view('routetest');
 });
 
+Route::get('weather', function() {
+  return view('weather');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

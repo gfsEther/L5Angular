@@ -45,6 +45,10 @@ elixir(function(mix) {
             'angular-route/angular-route.js',
             'public/js/vendor/angular-route.js'
         )
+        .publish(
+            'angular-resource/angular-resource.js',
+            'public/js/vendor/angular-resource.js'
+        )
         .styles([
             "public/css/app.css",
             "public/css/vendor/font-awesome.css"
