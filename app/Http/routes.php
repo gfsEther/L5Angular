@@ -24,6 +24,10 @@ Route::get('watch', function() {
   return view('watch');
 });
 
+Route::get('route', function () {
+  return view('routetest');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
