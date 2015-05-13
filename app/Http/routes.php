@@ -32,6 +32,10 @@ Route::get('weather', function() {
   return view('weather');
 });
 
+Route::get('start', function() {
+  return view('start');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
