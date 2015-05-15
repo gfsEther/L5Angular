@@ -49,6 +49,10 @@ elixir(function(mix) {
             'angular-resource/angular-resource.js',
             'public/js/vendor/angular-resource.js'
         )
+        .publish(
+            'angular-mocks/angular-mocks.js',
+            'public/js/vendor/angular-mocks.js'
+        )
         .styles([
             "public/css/app.css",
             "public/css/vendor/font-awesome.css"

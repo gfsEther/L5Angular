@@ -40,3 +40,26 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+// TDD
+Route::get('tdd/protractor', function (){
+  return view('TDD.todo');
+});
+
+Route::get('tdd', function (){
+  return view('testRunner');
+});
+
+Route::get('tdd/comments', function (){
+  return view('TDD.comments');
+});
+
+Route::get('tdd/flipflop', function (){
+  return view('TDD.flipflop');
+});
+
+Route::get('tdd/search', function (){
+  return view('TDD.search');
+});
+
